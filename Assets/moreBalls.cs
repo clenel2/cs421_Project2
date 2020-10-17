@@ -20,7 +20,7 @@ public class moreBalls : MonoBehaviour
 
      if (Input.GetMouseButton(0)) {
      	
-     	posAdd = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
+     	posAdd = new Vector3(Random.Range(-0.05f, 0.05f), Random.Range(-0.05f, 0.05f), Random.Range(-0.05f, 0.05f));
 
      	Instantiate(ball, startPosRot.position+posAdd, startPosRot.rotation);
      }   
